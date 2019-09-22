@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> god.check_images_same('./fig/hm4-5.png', 'hm4-5.png')
+          >>> god.difference('./fig/hm4-5.png', 'hm4-5.png', 250000)
           True
           """,
           'hidden': False,
